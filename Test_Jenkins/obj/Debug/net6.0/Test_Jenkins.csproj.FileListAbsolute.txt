@@ -1,0 +1,15 @@
+C:\Users\Gaël Levanier\OneDrive - CELIOS DEVELOPPEMENT\Documents\GitHub\Test_Jenkins\Test_Jenkins\bin\Debug\net6.0\Test_Jenkins.exe
+C:\Users\Gaël Levanier\OneDrive - CELIOS DEVELOPPEMENT\Documents\GitHub\Test_Jenkins\Test_Jenkins\bin\Debug\net6.0\Test_Jenkins.deps.json
+C:\Users\Gaël Levanier\OneDrive - CELIOS DEVELOPPEMENT\Documents\GitHub\Test_Jenkins\Test_Jenkins\bin\Debug\net6.0\Test_Jenkins.runtimeconfig.json
+C:\Users\Gaël Levanier\OneDrive - CELIOS DEVELOPPEMENT\Documents\GitHub\Test_Jenkins\Test_Jenkins\bin\Debug\net6.0\Test_Jenkins.dll
+C:\Users\Gaël Levanier\OneDrive - CELIOS DEVELOPPEMENT\Documents\GitHub\Test_Jenkins\Test_Jenkins\bin\Debug\net6.0\Test_Jenkins.pdb
+C:\Users\Gaël Levanier\OneDrive - CELIOS DEVELOPPEMENT\Documents\GitHub\Test_Jenkins\Test_Jenkins\obj\Debug\net6.0\Test_Jenkins.csproj.AssemblyReference.cache
+C:\Users\Gaël Levanier\OneDrive - CELIOS DEVELOPPEMENT\Documents\GitHub\Test_Jenkins\Test_Jenkins\obj\Debug\net6.0\Test_Jenkins.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Gaël Levanier\OneDrive - CELIOS DEVELOPPEMENT\Documents\GitHub\Test_Jenkins\Test_Jenkins\obj\Debug\net6.0\Test_Jenkins.AssemblyInfoInputs.cache
+C:\Users\Gaël Levanier\OneDrive - CELIOS DEVELOPPEMENT\Documents\GitHub\Test_Jenkins\Test_Jenkins\obj\Debug\net6.0\Test_Jenkins.AssemblyInfo.cs
+C:\Users\Gaël Levanier\OneDrive - CELIOS DEVELOPPEMENT\Documents\GitHub\Test_Jenkins\Test_Jenkins\obj\Debug\net6.0\Test_Jenkins.csproj.CoreCompileInputs.cache
+C:\Users\Gaël Levanier\OneDrive - CELIOS DEVELOPPEMENT\Documents\GitHub\Test_Jenkins\Test_Jenkins\obj\Debug\net6.0\Test_Jenkins.dll
+C:\Users\Gaël Levanier\OneDrive - CELIOS DEVELOPPEMENT\Documents\GitHub\Test_Jenkins\Test_Jenkins\obj\Debug\net6.0\refint\Test_Jenkins.dll
+C:\Users\Gaël Levanier\OneDrive - CELIOS DEVELOPPEMENT\Documents\GitHub\Test_Jenkins\Test_Jenkins\obj\Debug\net6.0\Test_Jenkins.pdb
+C:\Users\Gaël Levanier\OneDrive - CELIOS DEVELOPPEMENT\Documents\GitHub\Test_Jenkins\Test_Jenkins\obj\Debug\net6.0\Test_Jenkins.genruntimeconfig.cache
+C:\Users\Gaël Levanier\OneDrive - CELIOS DEVELOPPEMENT\Documents\GitHub\Test_Jenkins\Test_Jenkins\obj\Debug\net6.0\ref\Test_Jenkins.dll
