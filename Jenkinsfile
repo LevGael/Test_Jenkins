@@ -34,10 +34,5 @@ pipeline {
                 bat 'dotnet build'
             }
         }
-        stage('publish') {
-            steps {
-              
-            }
-        }
     }
 }
