@@ -21,7 +21,7 @@ pipeline {
     stages {
         stage('checkout') {
           steps {
-            checkout([$class: 'GitSCM', ...])
+            checkout([$class: 'GitSCM'])
           }
         }
         stage('restore') {
