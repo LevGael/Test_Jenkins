@@ -9,5 +9,4 @@ node {
    stage 'deploy Production'
    input 'Proceed?'
    sh 'echo "Application fait sur Jenkinsfile"; sleep 6;'
-   execute Test_Jenkins.sln
 }
