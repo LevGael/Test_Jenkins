@@ -12,27 +12,43 @@ node {
 }
 pipeline {
     agent any
-    environment {
-        myVersion = '0.9'
-    }
-    tools {
-        msbuild '.NET Core 2.0.0'
+    triggers {
+        githubPush()
     }
     stages {
-        stage('checkout') {
-          steps {
-            checkout([$class: 'GitSCM'])
+        stage('Restore packages'){
+           steps{
+               sh 'dotnet restore Test_Jenkins.sln'
+            }
+         }
+        stage('Clean'){
+           steps{
+               sh 'dotnet clean Test_Jenkins.sln --configuration Release'
+            }
+         }
+        stage('Build'){
+           steps{
+               sh 'dotnet build Test_Jenkins.sln --configuration Release --no-restore'
+            }
+         }
+        stage('Test: Unit Test'){
+           steps {
+                sh 'dotnet test Test_Jenkins/Test_Jenkins.csproj --configuration Release --no-restore'
+             }
           }
+        stage('Publish'){
+             steps{
+               sh 'dotnet publish Test_Jenkins/Test_Jenkins.csproj --configuration Release --no-restore'
+             }
         }
-        stage('restore') {
-            steps {
-                bat 'dotnet restore --configfile NuGet.Config'
-            }
-        }
-        stage('build') {
-            steps {
-                bat 'dotnet build'
-            }
+        stage('Deploy'){
+             steps{
+               sh '''for pid in $(lsof -t -i:9090); do
+                       kill -9 $pid
+               done'''
+               sh 'cd WebApplication/bin/Release/netcoreapp3.1/publish/'
+               sh 'nohup dotnet WebApplication.dll --urls="http://104.128.91.189:9090" --ip="104.128.91.189" --port=9090 --no-restore > /dev/null 2>&1 &'
+             }
         }
     }
 }
